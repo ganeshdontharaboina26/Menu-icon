@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c{
+            border: 2px solid black;
+            width: 30px;
+        }
+        .c div{
+              border: 2px solid black;
+              margin: 5px;
+        }
+        ul{
+            display: none;
+        }
+        .c:active ~ ul{
+             display: block;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="c">
+
+<div></div>
+<div></div>
+<div></div>
+
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>Login</li>
+        <li>Contacts</li>
+        <li>Registration</li>
+    </ul>
+</body>
+</html>
